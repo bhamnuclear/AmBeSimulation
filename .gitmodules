@@ -1,0 +1,3 @@
+[submodule "Geant4-MPI"]
+	path = Geant4-MPI
+	url = https://github.com/bhamnuclear/Geant4-MPI
