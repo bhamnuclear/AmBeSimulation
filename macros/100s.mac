@@ -1,0 +1,8 @@
+# This macro just runs one single particle
+# to prove that the application works
+#
+# Run it using "./task macros/100s.mac"
+/run/initialize
+/process/had/particle_hp/produce_fission_fragment true
+/process/had/particle_hp/use_Wendt_fission_model true
+/run/beamOn 227000000 # i.e. 2.27e6 * 100(s)
